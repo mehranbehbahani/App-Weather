@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>app weather</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Weather Application</h1>
+        <form action="">
+            <input type="text" placeholder="Please Enter City">
+            <button>Search</button>
+        </form>
+        <div class="error">There is some problem</div>
+        <div class="loader"></div>
+        <div class="weather">
+            <div class="location">
+                <div>Country : <span class="country"></span></div>
+                <div>City : <span class="city"></span></div>
+                <div><span class="deg"></span></div>
+                <div><img class="icon" src="" alt="weather" /></div>
+                <div><span class="condition"></span></div>
+                <div>LOCAL TIME : <span class="time"></span></div>
+                <div>LAST UPDATED : <span class="last-updated"></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
